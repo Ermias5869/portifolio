@@ -1,5 +1,24 @@
 export const projects = [
   {
+    title: "Gitify - GitHub Profile Enhancement Tool",
+    description:
+      "A developer tool that automates and backdates commits to improve GitHub profiles, helping projects look professional and well-maintained.",
+    image: "https://ik.imagekit.io/zpti8zr3jl/gitify?updatedAt=1764579801974", // Replace with actual image URL
+    tech: [
+      "Next.js",
+      "Prisma",
+      "Nest.js",
+      "GitHub API",
+      "Vercel",
+      "Docker",
+      "Redis",
+    ],
+
+    previewLink: "https://gitify-ai.vercel.app", // Replace with actual if deployed
+    githubLink: "https://github.com/Ermias5869/git-frontend",
+  },
+
+  {
     title: "BDU Connect - Social Media and Order Platform for BDU",
     description:
       "A full-featured university social media platform for Bahir Dar University, supporting chat, media sharing, posts, reactions, and ordering services.",
@@ -8,6 +27,7 @@ export const projects = [
     previewLink: "https://bduconnect.vercel.app", // Replace with actual if deployed
     githubLink: "https://github.com/Ermias5869/BDU-Connect",
   },
+
   {
     title: "Washara - Real-Time Video Call & Social Platform",
     description:
@@ -41,5 +61,14 @@ export const projects = [
     tech: ["React.js", "Tailwind CSS", "Supabase"],
     previewLink: "#", // Update if deployed somewhere
     githubLink: "https://github.com/Ermias5869/the-wild-oasis",
+  },
+  {
+    title: "Social Media Boostify - Engagement Mini App",
+    description:
+      "A mini app that increases engagement on users’ social media accounts with custom growth features for private clients.",
+    image: "https://ik.imagekit.io/zpti8zr3jl/boostify?updatedAt=1764580008354",
+    tech: ["Next.js", "Prisma", "Nest.js", "Docker", "Redis"],
+    previewLink: "#", // add preview link if deployed
+    githubLink: "https://github.com/birhanu-dejen/boosterclient", // add GitHub link if available
   },
 ];
